@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&display=swap');
+:root {
+    --title-h1: 'Poppins', sans-serif;
+    --title-p: 'Monstserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(90deg, rgb(136, 204, 236), rgb(213, 119, 221), rgb(136, 204, 236));
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerTitulo h1 {
+    font-family: var((--title-h1));
+    margin: 2rem;
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 4rem;
+}
+
+.containerPrincipal {
+    margin-left: 1rem;
+}
+
+input {
+    padding: 1rem;
+}
+
+input#tarefa {
+    margin: 0.7rem;
+    margin-left: 6.5rem;
+    border: none;
+    font-family: var((--title-p));
+    font-size: 1.2rem;
+    margin-right: 0.9rem;
+}
+
+button {
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+button {
+    background: rgb(136, 204, 236);
+    border: none;
+    font-weight: 700;
+    font-family: var((--title-p));
+    margin-left: 0.5rem;
+    color: rgb(48, 44, 44);
+}
+
+button:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(213, 119, 221);
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.containerTarefas {
+    margin: 3rem;
+    background: white;
+    color: black;
+    font-family: var((--title-p));
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+ul {
+    list-style: none;
+    font-size: 1rem;
+    font-family: var((--title-p));
+}
+
+li {
+    padding: 2rem;
+    font-family: var((--title-p));
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+a {
+    margin: 1rem;
+    text-decoration: none;
+    font-family: var((--title-p));
+    font-size: 1.3rem;
+    font-weight: 900;
+    color: rgb(213, 119, 221)
+}

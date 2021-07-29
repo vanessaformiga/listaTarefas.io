@@ -28,7 +28,7 @@ function listarTarefas() {
 
         criarLista.addEventListener('click', () => {
             criarLista.classList.toggle('completed')
-            completed: todoEl.classList.contains('completed')
+
 
         })
 

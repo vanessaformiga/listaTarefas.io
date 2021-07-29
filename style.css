@@ -100,3 +100,9 @@ a {
     font-weight: 900;
     color: rgb(213, 119, 221)
 }
+
+.completed {
+    color: #423f3f;
+    text-decoration: line-through;
+    background-color: rgb(136, 204, 236);
+}

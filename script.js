@@ -25,13 +25,26 @@ function listarTarefas() {
         elementoLink.setAttribute('onclick', `deletarTarefa(${posicao})`)
 
 
+
+        criarLista.addEventListener('click', () => {
+            criarLista.classList.toggle('completed')
+            completed: todoEl.classList.contains('completed')
+
+        })
+
+
+
         criarLista.appendChild(taskTarefa)
         listaUl.appendChild(criarLista)
         criarLista.appendChild(elementoLink)
 
 
 
+
+
     }
+
+
 }
 
 
